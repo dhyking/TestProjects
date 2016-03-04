@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--login登陆-->
+    <color name="login_font_input">#fefeff</color>
+    <!--main主页-->
+    <color name="home_red">#e8392d</color>
+    <color name="home_options_normal">#ffffff</color>
+    <color name="home_options_pressed">#cccccc</color>
+
+    <!--settings设置-->
+    <color name="setttings_background">#e5e5e5</color>
+    <!--hisorybill历史账单-->
+    <color name="histbill_secondtitle">#e5e5e5</color>
+
+    <color name="login_bg">#373b47</color>
+
+</resources>

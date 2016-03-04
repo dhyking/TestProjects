@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/darker_gray"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/home_imagebutton_options"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        >
+
+        <ImageButton
+            android:background="@drawable/home_selector_options"
+            android:scaleType="centerInside"
+            android:id="@+id/ibtn_swipcard"
+            style="@style/home_imagebutton_options"
+            android:layout_width="match_parent"
+            android:src="@drawable/home_icon_swipcard"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="0.5dp"
+        style="@style/home_imagebutton_options"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:background="@drawable/home_selector_options"
+            android:scaleType="centerCrop"
+            android:id="@+id/ibtn_alipay"
+            style="@style/home_imagebutton_options"
+            android:src="@drawable/home_icon_zhifubao"
+            />
+        <ImageButton
+            android:layout_marginLeft="0.5dp"
+            android:background="@drawable/home_selector_options"
+            android:scaleType="centerCrop"
+            android:id="@+id/ibtn_weichat"
+            style="@style/home_imagebutton_options"
+            android:src="@drawable/home_icon_weixin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="0.5dp"
+        style="@style/home_imagebutton_options"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:background="@drawable/home_selector_options"
+            android:scaleType="centerCrop"
+            android:id="@+id/ibtn_settings"
+            style="@style/home_imagebutton_options"
+            android:src="@drawable/home_icon_settings"
+            />
+
+        <ImageButton
+            android:background="@drawable/home_selector_options"
+            android:layout_marginLeft="0.5dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/ibtn_more"
+            style="@style/home_imagebutton_options"
+            android:src="@drawable/home_icon_more"/>
+    </LinearLayout>
+
+
+</LinearLayout>
